@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;700&display=swap');
+
+/* ---------------------------------------------------------------- */
+/* Gradient Styles */
+
+
+:root {
+    --gradient: linear-gradient(90deg, #023059, #89BC47, #FFFFFF);
+  
+  }
+  
+  body {
+    font-family: basic-sans, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.125em;
+    line-height: 1.6;
+    color: #333;
+    background: #ddd;
+    background-size: 300%;
+    background-image: var(--gradient);
+    animation: bg-animation 15s infinite;
+  }
+
+  @keyframes bg-animation {
+    0% {background-position: left}
+    50% {background-position: right}
+    100% {background-position: left}
+  }
+  
+
+  /* ---------------------------------------------------------------- */
+/* Logo Styles */
+
+
+.logo{
+    inline-size: 200px;
+
+    margin-top: -670px;
+    margin-left: -390px;
+}
+
+
+
+/* ---------------------------------------------------------------- */
+/* Steps*/
+
+.steps{
+    margin-top: -270px;
+    margin-left: 160px;
+
+}
+
+
+.step1{
+    margin-left: 100px;
+    margin-top:90px;
+
+}
+
+.step2{
+    margin-left: 360px;
+    margin-top: -58px;
+
+}
+
+.step3{
+    margin-left: 600px;
+    margin-top: -58px;
+    
+}
+
+
+/* ---------------------------------------------------------------- */
+/* Buttons*/
+
+.button{
+   
+    width: 233px;
+    height: 42px;
+    padding: 12px 99px;
+    border-style: none;
+    font-family: Sora;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 90px;
+    margin-top: 10px;
+    border-radius: 20px;
+   
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: #023059;
+    color: white;
+}
+
+/* ---------------------------------------------------------------- */
+/* Step2*/
+
+.heading h3{
+    font-family: 'Sora', sans-serif;
+    color: #FFFFFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left:240px;
+    margin-top: 60px;
+}
+
+.heading h4{
+    font-family: 'Sora', sans-serif;
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-left: 190px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    padding-left: 90px;
+
+}
+
+.heading p{
+    font-family: 'Sora', sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+
+    margin-left: 10px;
+    padding-left: 268px;
+    
+}

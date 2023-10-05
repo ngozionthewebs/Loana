@@ -1,0 +1,190 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;700&display=swap');
+
+/* ---------------------------------------------------------------- */
+/* Gradient Styles */
+
+
+:root {
+    --gradient: linear-gradient(90deg, #023059, #89BC47, #FFFFFF);
+  
+  }
+  
+  body {
+    font-family: basic-sans, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.125em;
+    line-height: 1.6;
+    color: #333;
+    background: #ddd;
+    background-size: 300%;
+    background-image: var(--gradient);
+    animation: bg-animation 15s infinite;
+  }
+
+  @keyframes bg-animation {
+    0% {background-position: left}
+    50% {background-position: right}
+    100% {background-position: left}
+  }
+  
+
+  /* ---------------------------------------------------------------- */
+/* Logo Styles */
+
+
+.logo{
+    inline-size: 200px;
+
+    margin-top: -670px;
+    margin-left: -390px;
+}
+
+
+/* ---------------------------------------------------------------- */
+/* Steps*/
+
+.step1{
+    margin-left: 100px;
+    margin-top:90px;
+
+}
+
+.step2{
+    margin-left: 360px;
+    margin-top: -58px;
+
+}
+
+.step3{
+    margin-left: 600px;
+    margin-top: -58px;
+    
+}
+
+
+/* ---------------------------------------------------------------- */
+/* Form Styles*/
+
+form{
+    margin-top: -50px;
+}
+
+.form-input{
+    width: 255px;
+    margin-left: 75%;
+    border: 2px #F2790F solid;
+    color: white;
+    border-radius: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    background-color: transparent;
+    margin-top: -18px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.form-style{
+    width: 600px;
+    height: 500px;
+    background-color: transparent;
+    margin-top: 115px;
+    padding-top: 30px;
+
+}
+
+.form-style h3{
+
+    font-family: 'Sora', sans-serif;
+    color: #FFFFFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 190px;
+}
+
+.form-style p{
+
+    font-family: 'Sora', sans-serif;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25px;
+    margin-left: 190px;
+}
+
+.form-in{
+    
+    width: 90%;
+    height: 65px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 125px;
+    padding-left: 20px;
+    border-radius: 25px;
+    border: none;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(211, 204, 204);
+    color: #A6450D;
+}
+
+
+/* ---------------------------------------------------------------- */
+/* Checkbox*/
+
+.checkbox{
+
+    margin-left: 130px;
+    color: white;
+}
+
+/* ---------------------------------------------------------------- */
+/* Buttons*/
+
+.button{
+   
+    width: 233px;
+    height: 42px;
+    padding: 12px 99px;
+    border-style: none;
+    font-family: Sora;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 90px;
+    margin-top: 10px;
+    border-radius: 20px;
+   
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: #023059;
+    color: white;
+}
+
+
+
+/* ---------------------------------------------------------------- */
+/* Step2*/
+
+.heading h3{
+    font-family: 'Sora', sans-serif;
+    color: #FFFFFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+
+

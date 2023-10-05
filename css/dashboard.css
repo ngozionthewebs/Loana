@@ -1,0 +1,165 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;700&display=swap');
+
+/* ---------------------------------------------------------------- */
+/* Gradient Styles */
+
+
+:root {
+    --gradient: linear-gradient(90deg, #023059, #89BC47, #FFFFFF);
+  
+  }
+  
+  body {
+    font-family: basic-sans, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.125em;
+    line-height: 1.6;
+    color: #333;
+    background: #ddd;
+    background-size: 300%;
+    background-image: var(--gradient);
+    animation: bg-animation 15s infinite;
+  }
+
+  @keyframes bg-animation {
+    0% {background-position: left}
+    50% {background-position: right}
+    100% {background-position: left}
+  }
+  
+
+  /* ---------------------------------------------------------------- */
+/* Logo Styles */
+
+
+.logo{
+    inline-size: 200px;
+
+    padding-top: -1900px;
+    margin-left: 0px;
+
+    margin-top: -930px;
+}j
+
+
+
+
+/* ---------------------------------------------------------------- */
+/* Buttons*/
+
+.button{
+   
+ margin-left: 100px;
+ padding-left: 200px;
+ margin-top: 70px;
+ padding-top: 90px;
+   
+}
+
+.lend-btn{
+    width: 184px;
+    height: 51px;
+    background-color: white;
+    padding: 13px 67px;
+    color: #002B60;
+    font-family: Sora;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 20px;
+    border-style: none;
+    margin-left: 800px;
+    margin-top: -50px;
+
+}
+
+.lend-btn:hover{
+    cursor: pointer;
+    background-color: #002B60;
+    color: #FFFFFF;
+}
+
+.liquidate-btn{
+
+        width: 184px;
+        height: 51px;
+        background-color: white;
+        padding: 13px 44px;
+        color: #002B60;
+        font-family: Sora;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        border-radius: 20px;
+        border-style: none;
+        margin-left: 1000px;
+        margin-top: -49px;
+
+    
+}
+
+.liquidate-btn:hover{
+    cursor: pointer;
+    background-color: #002B60;
+    color: #FFFFFF;
+}
+
+
+
+
+/*settings*/
+
+.settings{
+
+    margin-left: 870px;
+    margin-top: 30px;
+    padding-bottom: -200px;
+
+
+
+}
+
+/*Value*/
+
+.value{
+    margin-left: -200px;
+    margin-top: 90px;
+    margin-bottom: 70px;
+}
+
+
+.dashboard h3{
+    color: #FFF;
+    font-family: Sora;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: -200px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+/*Dashboard*/
+.dash{
+    margin-top: -1000px;
+
+    padding-bottom: 400px;
+    padding-top: 1000px;
+    margin-left: -190px;
+}
+
+.past{
+    margin-left: 750px;
+    margin-top: -1030px;
+}
+
+
+
+
